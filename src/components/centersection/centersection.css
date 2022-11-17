@@ -1,0 +1,62 @@
+.center-section{
+    flex-grow: 1;
+    /* background-color: white; */
+    border-radius: 1rem;
+    margin: 1.5rem 2rem;
+    background-color: var(--bg-color);
+    height: fit-content;
+}
+.center-section-post{
+    background-color: white;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.center-section-input-img{
+padding: 1rem;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+}
+.center-section-input-img>img{
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.center-section-input-img>input{
+    width: 80%;
+    height: 3rem;
+    border: 1px solid black;
+    padding: 0 1rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    /* background-color: var(--search-bg); */
+}
+.center-section-input-img>input:hover{
+    background-color: var(--bg-color);
+}
+.center-section button{
+    all: unset;
+    font-size: 1.5rem;
+    color: rgb(28, 28, 29);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    margin: 0 .5rem;
+
+}
+.center-section-btns>button:hover{
+    
+    color: rgb(190, 190, 200);
+}
+.center-section-btns{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+}
+.center-section-feed{
+    margin-top: 2rem;
+}

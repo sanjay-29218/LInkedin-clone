@@ -1,13 +1,70 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  /* border: 1px solid red; */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  --bg-color: rgb(243 242 239);
+--nav-bar-color: rgb(240, 235, 225);
+--primary-color: rgb(10 102 194);
+--search-bg: rgb(238 243 248);
+--left-section-width:15vw;
+--left-section-height:90vh;
+--middle-section-width:60vw;
+--middle-section-heigth:100vh;
+--right-section-width:20vw;
+--right-section-height:80vh;
 }
+
+
+body{
+  background-color: --bg-color;
+  height: fit-content;
+  font-family: 'Roboto', sans-serif;
+
+}
+.container{
+  background-color:var(--bg-color) ;
+  max-width: 100vw;
+  height: fit-content;
+  display: flex;
+  margin: 1rem;
+
+  
+}
+
+
+
+a{
+  text-decoration: none;
+}
+
+
+/* Small Devices */
+/* @media (max-width: 768px) {
+  :root{
+    --left-section-width:20vw;
+    --left-section-height:90vh;
+    --middle-section-width:60vw;
+    --middle-section-heigth:100vh;
+    --right-section-width:20vh;
+    --right-section-height:100vh;
+  }
+} */
+/* Medium Devices */
+/* @media (max-width: 1200) {
+  :root{
+    --left-section-width:20vw;
+    --left-section-height:90vh;
+    --middle-section-width:60vw;
+    --middle-section-heigth:100vh;
+    --right-section-width:20vh;
+    --right-section-height:100vh;
+  }
+} */
+  
+
